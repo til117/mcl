@@ -61,8 +61,13 @@ This data set corresponds to a perfectly symmetric environment with 4 landmarks.
 
 2. map_sym3.txt + so_sym3_nk: 
 
-This data set corresponds to a nearly symmetric environment with 5 landmarks. At ﬁrst, there are multiple valid hypotheses but, approximately after the time step 180 the robot observes the top right landmark which breaks the symmetry and only one hypothesis remains valid. To see when the ﬁlter converges to the correct
+This data set corresponds to a nearly symmetric environment with 5 landmarks. At ﬁrst, there are multiple valid hypotheses but, approximately after the time step 180 the robot observes the top right landmark which breaks the symmetry and only one hypothesis remains valid. 
+
+To see when the ﬁlter converges to the correct
 hypothesis, you can the line:
+
 ’if (count > 170)&(count < 250) pause; end’
+
 and hit enter for each iteration.
+
 (alter the time steps accordingly..)
